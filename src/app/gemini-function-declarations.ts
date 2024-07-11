@@ -45,7 +45,7 @@ const columnSchema: FunctionDeclarationSchema = {
     type: FunctionDeclarationSchemaType.OBJECT,
     description: "Table column. Specifies the properties of a table column.",
     properties: tableColumnProperties,
-    required: ["columnName, columnType"],
+    required: ["columnName", "columnType"],
 };
 
 const columnsSchema: FunctionDeclarationSchemaProperty = {
